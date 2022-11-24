@@ -11,6 +11,7 @@
 	<!-- plugin -->
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<!-- styleSheet -->
 	<link rel="stylesheet" href="css/default-edit.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -32,38 +33,37 @@
 				<ul class="mobile-menu">
 					<li>
 						<a class="active" href="#">
-							<img src="images/menu-active.png" alt="" class="active-ind">
-							<div class="txt">Home</div>
+							<div class="txt">Homepage</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="images/menu-active.png" alt="" class="active-ind">
-							<div class="txt">Register</div>
+							<div class="txt">Rankings</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="images/menu-active.png" alt="" class="active-ind">
-							<div class="txt">Download</div>
+							<div class="txt">Create Account</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="images/menu-active.png" alt="" class="active-ind">
-							<div class="txt">Ranking</div>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="images/menu-active.png" alt="" class="active-ind">
 							<div class="txt">Community</div>
 						</a>
 					</li>
 				</ul>
-				<div class="d-flex justify-content-center mt-3">
-					<a href="#" class="bg-button">CREATE ACCOUNT</a>
+
+
+				<div class="h-download-row mt-4">
+					<a href="#" class="download-button">
+						<img src="images/download-button.png" alt="">
+					</a>
+					<div class="options">
+						<a href="#" class="single"><img src="images/windows-icon.png" alt=""></a>
+						<a href="#" class="single"><img src="images/mac-icon.png" alt=""></a>
+					</div>
 				</div>
+
 			</div>
 		</div>
 		<div class="offcanvas-overlay"></div>
@@ -74,38 +74,34 @@
 			<div class="header-in">
 				<div class="container">
 					<div class="header-section-inner">
-						<a href="index.html" class="header-logo"><img src="images/lobo.png" alt=""></a>
 	
+
 						<div class="main-menu d-xl-block d-none">
 							<ul>
 								<li>
-									<a class="active" href="#">
-										<img src="images/menu-active.png" alt="" class="active-ind">
-										<div class="txt">Home</div>
+									<a href="#">
+										Homepage
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="images/menu-active.png" alt="" class="active-ind">
-										<div class="txt">Register</div>
+										Rankings 
+										<i class="far fa-chevron-down"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="main-menu d-xl-block d-none">
+							<ul>
+								<li>
+									<a href="#">
+										Create Account
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="images/menu-active.png" alt="" class="active-ind">
-										<div class="txt">Download</div>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/menu-active.png" alt="" class="active-ind">
-										<div class="txt">Ranking</div>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/menu-active.png" alt="" class="active-ind">
-										<div class="txt">Community</div>
+										Community
 									</a>
 								</li>
 							</ul>
@@ -114,7 +110,6 @@
 						<div class="header-language d-xl-block d-none">
 							<div class="h-lan-dropdown dropdown">
 								<a class="toggler" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-									<span class="txt">Eng...</span>
 									<div class="icon"><img src="images/flags.png" alt=""></div>
 									<i class="far fa-chevron-down"></i>
 								</a>
@@ -126,8 +121,6 @@
 								</div>
 							</div>
 						</div>
-
-						<a href="#" class="bg-button d-xl-block d-none">CREATE ACCOUNT</a>
 						
 						<a href="javascript:void(0)" class="offcanvas-open d-xl-none ms-auto">
 							<i class="far fa-bars"></i>
@@ -144,33 +137,54 @@
 			<section class="hero-section">
 				<div class="container">
 					<div class="hero-section-inner">
-						<div class="hero-cont1">
-							<div class="single-cont">
-								<div class="image">
-									<img src="images/hero-wipon.png" alt="">
-								</div>
-								<div class="txt-c">
-									<h3>3.312</h3>
-									<h4>Online</h4>
-								</div>
-							</div>
-							<div class="single-cont">
-								<div class="image">
-									<img src="images/hero-wipon.png" alt="">
-								</div>
-								<div class="txt-c">
-									<h3>8.312</h3>
-									<h4>Online<span class="dc">(last 24h)</span></h4>
+
+						<div class="hero-left-content">
+							<div class="h-download-row">
+								<a href="#" class="download-button">
+									<img src="images/download-button.png" alt="">
+								</a>
+								<div class="options">
+									<a href="#" class="single"><img src="images/windows-icon.png" alt=""></a>
+									<a href="#" class="single"><img src="images/mac-icon.png" alt=""></a>
 								</div>
 							</div>
 						</div>
+
+						<div class="hero-right-content">
+							<div class="her-logo">
+								<div class="hero-logo__inner">
+									<img src="images/LOGO.png" alt="">
+								</div>
+							</div>
+
+							<div class="hero-cont1">
+								<div class="single-cont">
+									<div class="txt-c">
+										<h4>Players Online</h4>
+										<h3>7182</h3>
+									</div>
+								</div>
+								<div class="single-cont">
+									<div class="txt-c">
+										<h4>Players Online(<span class="color-theme2">24H</span>)</h4>
+										<h3>7182</h3>
+									</div>
+								</div>
+							</div>
+
+							<a href="#sw1" class="hero-scroll-down">
+								<img src="images/scroll-down.png" alt="">
+								<span class="txt">Scroll down</span>
+							</a>
+						</div>
+
 					</div>
 				</div>
 			</section><!-- hero-section end -->
 
 
 			<!-- section-wrapper1 -->
-			<div class="section-wrapper1">
+			<div class="section-wrapper1" id="sw1">
 				<img src="images/big-line.png" alt="" class="sw-big-line">
 				<div class="container">
 					<div class="section-wrapper1-inner">
@@ -230,15 +244,15 @@
 											<img src="images/box-tr.png" alt="" class="comm-box-ct-shape comm-box-tr-shape">
 											<img src="images/box-bl.png" alt="" class="comm-box-ct-shape comm-box-bl-shape">
 											<div class="plr-table table-str1">
-												<div class="table-title">
+												<!-- <div class="table-title">
 													<h4>* Player Ranking</h4>
-												</div>
+												</div> -->
 												<table>
 													<thead>
 														<tr>
 															<td>#</td>
-															<td>Player</td>
-															<td>Class</td>
+															<td>Name</td>
+															<td>Kingdom</td>
 															<td>Level</td>
 														</tr>
 													</thead>
@@ -247,101 +261,101 @@
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		<img src="images/gold.png" alt="">
+																		1.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		<img src="images/silver.png" alt="">
+																		2.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-y">Shaman</span></td>
+																<td><span class="td-class-y">Chunjo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		<img src="images/bronze.png" alt="">
+																		3.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-g">Assassin</span></td>
+																<td><span class="td-class-b">Jinno</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		4
+																		4.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		5
+																		5.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-y">Shaman</span></td>
+																<td><span class="td-class-y">Chunjo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		6
+																		6.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-g">Assassin</span></td>
+																<td><span class="td-class-b">Jinno</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		7
+																		7.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		8
+																		8.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-y">Shaman</span></td>
+																<td><span class="td-class-y">Chunjo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		9
+																		9.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-g">Assassin</span></td>
+																<td><span class="td-class-b">Jinno</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		10
+																		10.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 														</tr>
@@ -356,30 +370,64 @@
 								<!-- main-m-part -->
 								<div class="main-m-part">
 
-									<div class="video-card" style="background: url('images/vif-thumnb.png') no-repeat center center/cover;">
-										<div class="video-card-inner">
-											<div class="video-title">
-												<h3>Etgereal - New Private Server</h3>
-												<p>Are you ready ? </p>
+									<!-- video-slider -->
+									<div class="video-slider video-slider-active owl-carousel slider-arrow1 slider-dots1">
+										<div class="video-slide">
+											<div class="video-card" style="background: url('images/vif-thumnb.png') no-repeat center center/cover;">
+												<div class="video-card-inner">
+													<div class="video-title">
+														<p>News from Anoria</p>
+														<h3>HELLO DEAR PLAYERS, ANORIA IS COMING SOON!</h3>
+													</div>
+													<a href="https://www.youtube.com/watch?v=2cre8FbSO7M" class="play-button popup-video">
+														<i class="fas fa-play-circle"></i>
+													</a>
+												</div>
 											</div>
-											<a href="https://www.youtube.com/watch?v=2cre8FbSO7M" class="play-button popup-video">
-												<i class="fas fa-play"></i>
-											</a>
+										</div>
+										<div class="video-slide">
+											<div class="video-card" style="background: url('images/vif-thumnb.png') no-repeat center center/cover;">
+												<div class="video-card-inner">
+													<div class="video-title">
+														<p>News from Anoria</p>
+														<h3>HELLO DEAR PLAYERS, ANORIA IS COMING SOON!</h3>
+													</div>
+													<a href="https://www.youtube.com/watch?v=2cre8FbSO7M" class="play-button popup-video">
+														<i class="fas fa-play-circle"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="video-slide">
+											<div class="video-card" style="background: url('images/vif-thumnb.png') no-repeat center center/cover;">
+												<div class="video-card-inner">
+													<div class="video-title">
+														<p>News from Anoria</p>
+														<h3>HELLO DEAR PLAYERS, ANORIA IS COMING SOON!</h3>
+													</div>
+													<a href="https://www.youtube.com/watch?v=2cre8FbSO7M" class="play-button popup-video">
+														<i class="fas fa-play-circle"></i>
+													</a>
+												</div>
+											</div>
 										</div>
 									</div>
+									<!-- video-slider-end -->
+
+									
 
 									<!-- news-section -->
 									<div class="news-section pb-0">
 										<img src="images/fade.png" alt="" class="news-fade">
 										<div class="new-section-inner">
 											<div class="news-header">
-												<h3>Ethereal news</h3>
+												<h3>Anoria News</h3>
 												<div class="news-nav">
 													<ul>
-														<li><a href="#">Ethereal News</a></li>
+														<li><a href="#">Anoria News</a></li>
 														<li><a href="#">Events</a></li>
-														<li><a href="#">Videos</a></li>
-														<li><a href="#">Images</a></li>
+														<li><a href="#">Breaks</a></li>
+														<li><a href="#">Info</a></li>
 													</ul>
 												</div>
 											</div>
@@ -388,7 +436,7 @@
 												<!-- news-card -->
 												<div class="news-card">
 													<div class="title">
-														<h3>Ethereal - The Best Private Server</h3>
+														<h3>Anoria - Coming Soon</h3>
 														<div class="right">
 															<span class="color-theme1">By</span>
 															Toura
@@ -400,8 +448,8 @@
 													</div>
 													<div class="content">
 														<div class="thumb-img"><img src="images/sm-thumb.png" alt=""></div>
-														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, <span class="color-pink">consectetur</span> adipiscing elit, sed do eiusmod isus commodo viverra maecenas sartenovi cesta tuni nei vabt.
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices <span class="color-yellow">gravida.</span> Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod isus commodo viverra maecenas
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum <span class="color-yellow">suspendisse</span> ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, <span class="">consectetur</span> adipiscing elit, sed do eiusmod isus commodo viverra maecenas sartenovi cesta tuni nei vabt.
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices <span class="color-yellow">gravida.</span> Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod isus commodo viverra maecenas maecenas do it
 													</div>
 												</div>
 												<!-- news-card-end -->
@@ -409,7 +457,7 @@
 												<!-- news-card -->
 												<div class="news-card">
 													<div class="title">
-														<h3>Ethereal - The Best Private Server</h3>
+														<h3>Anoria - Coming Soon</h3>
 														<div class="right">
 															<span class="color-theme1">By</span>
 															Toura
@@ -421,8 +469,8 @@
 													</div>
 													<div class="content">
 														<div class="thumb-img"><img src="images/sm-thumb.png" alt=""></div>
-														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, <span class="color-pink">consectetur</span> adipiscing elit, sed do eiusmod isus commodo viverra maecenas sartenovi cesta tuni nei vabt.
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices <span class="color-yellow">gravida.</span> Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod isus commodo viverra maecenas
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum <span class="color-yellow">suspendisse</span> ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, <span class="">consectetur</span> adipiscing elit, sed do eiusmod isus commodo viverra maecenas sartenovi cesta tuni nei vabt.
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices <span class="color-yellow">gravida.</span> Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod isus commodo viverra maecenas maecenas do it
 													</div>
 												</div>
 												<!-- news-card-end -->
@@ -430,9 +478,9 @@
 											</div>
 											<div class="pagination">
 												<ul>
-													<li><a href="#">1</a></li>
+													<li><a class="active" href="#">1</a></li>
 													<li><a href="#">2</a></li>
-													<li><a class="active" href="#">3</a></li>
+													<li><a href="#">3</a></li>
 													<li><a href="#">4</a></li>
 												</ul>
 											</div>
@@ -447,44 +495,50 @@
 
 									<div class="s-box comm-box">
 										<div class="box-comm-title">
-											<h3>SERVER STATISTICS</h4>
+											<h3>SERVER INFO</h4>
 										</div>
 										<div class="comm-box-main">
 											<img src="images/com-sm-heading-shadow.png" alt="" class="comm-box-top-shadow">
 											<img src="images/box-tr.png" alt="" class="comm-box-ct-shape comm-box-tr-shape">
 											<img src="images/box-bl.png" alt="" class="comm-box-ct-shape comm-box-bl-shape">
 											<div class="user-statics">
-												<h3>* Statistics of <a class="underline" href="#">Ethereal</a></h3>
+												<h3>Server statiistics</a></h3>
 												<div class="user-statics-wrap">
 													<div class="single-row">
 														<div class="column">
-															&bull;&nbsp;Created Accounts
+															&bull;&nbsp;&nbsp;Created accounts
 														</div>
-														<div class="column"><span class="lt-m">8 992</span></div>
+														<div class="column"><span class="lt-m">31.912</span></div>
 													</div>
 													<div class="single-row">
 														<div class="column">
-															&bull;&nbsp;Created Characters  
+															&bull;&nbsp;&nbsp;Created characters  
 														</div>
-														<div class="column"><span class="lt-m">8 992</span></div>
+														<div class="column"><span class="lt-m">22.533</span></div>
 													</div>
 													<div class="single-row">
 														<div class="column">
-															&bull;&nbsp;Created Guilds  
+															&bull;&nbsp;&nbsp;Created guilds  
 														</div>
-														<div class="column"><span class="lt-m">8 992</span></div>
+														<div class="column"><span class="lt-m">6.234</span></div>
 													</div>
 													<div class="single-row">
 														<div class="column">
-															&bull;&nbsp;Players Online  <span class="lt-m">(24h) </span>
+															&bull;&nbsp;&nbsp;Players Online
 														</div>
-														<div class="column"><span class="lt-m">8 992</span></div>
+														<div class="column"><span class="lt-m">11.921</span></div>
+													</div>
+													<div class="single-row">
+														<div class="column">
+															&bull;&nbsp;&nbsp;Players online(24h)
+														</div>
+														<div class="column"><span class="lt-m">51.312</span></div>
 													</div>
 												</div>
 												<div class="user-st-bottom">
 													<a href="#" class="reload-s-button">
 														<i class="far fa-redo-alt"></i>
-														Data is updated in 5 minutes
+														Last update: <span class="bright">4 min ago</span>
 													</a>
 												</div>
 											</div>
@@ -493,22 +547,22 @@
 
 									<div class="t-box comm-box">
 										<div class="box-comm-title">
-											<h3>Guild Ranking</h4>
+											<h3>GUILD RANK</h4>
 										</div>
 										<div class="comm-box-main">
 											<img src="images/com-sm-heading-shadow.png" alt="" class="comm-box-top-shadow">
 											<img src="images/box-tr.png" alt="" class="comm-box-ct-shape comm-box-tr-shape">
 											<img src="images/box-bl.png" alt="" class="comm-box-ct-shape comm-box-bl-shape">
 											<div class="plr-table table-str1">
-												<div class="table-title">
-													<h4>* Guild Ranking</h4>
-												</div>
+												<!-- <div class="table-title">
+													<h4>* Player Ranking</h4>
+												</div> -->
 												<table>
 													<thead>
 														<tr>
 															<td>#</td>
-															<td>Player</td>
-															<td>Class</td>
+															<td>Name</td>
+															<td>Kingdom</td>
 															<td>Level</td>
 														</tr>
 													</thead>
@@ -517,101 +571,101 @@
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		<img src="images/gold.png" alt="">
+																		1.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		<img src="images/silver.png" alt="">
+																		2.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-y">Shaman</span></td>
+																<td><span class="td-class-y">Chunjo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		<img src="images/bronze.png" alt="">
+																		3.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-g">Assassin</span></td>
+																<td><span class="td-class-b">Jinno</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		4
+																		4.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		5
+																		5.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-y">Shaman</span></td>
+																<td><span class="td-class-y">Chunjo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		6
+																		6.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-g">Assassin</span></td>
+																<td><span class="td-class-b">Jinno</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		7
+																		7.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		8
+																		8.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-y">Shaman</span></td>
+																<td><span class="td-class-y">Chunjo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		9
+																		9.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-g">Assassin</span></td>
+																<td><span class="td-class-b">Jinno</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="plr-pos">
-																		10
+																		10.
 																	</div>
 																</td>
 																<td>Toura</td>
-																<td><span class="td-class-b">Warrior</span></td>
+																<td><span class="td-class-r">Shinsoo</span></td>
 																<td><span class="td-level"><span class="lv">Lv.</span>150</span></td>
 															</tr>
 														</tr>
@@ -634,22 +688,12 @@
 							<div class="prefoot-section-inner">
 								<div class="pre-foot-menu">
 									<ul>
-										<li>
-											<ul class="social-menu">
-												<li><a href="#"><img src="images/m2.png" alt=""></a></li>
-												<li><a href="#"><img src="images/discord.png" alt=""></a></li>
-												<li><a href="#"><img src="images/epvp.png" alt=""></a></li>
-												<li><a href="#"><img src="images/fb.png" alt=""></a></li>
-											</ul>
-										</li>
-										<li><a href="#">Item-Shop</a></li>
-										<li><a href="#">Community Board</a></li>
-										<li><a href="#">Create an Account</a></li>
-										<li><a href="#">Support Center</a></li>
+										<li><a href="#">Homepage</a></li>
 										<li><a href="#">Rankings</a></li>
 										<li><a href="#">Download Client</a></li>
-										<li><a href="#">Events</a></li>
-										<li><a href="#">Terms of Use</a></li>
+										<li><a href="#">Discord</a></li>
+										<li><a href="#">Commumity</a></li>
+										<li><a href="#">Log In or Sign Up</a></li>
 									</ul>
 								</div>
 							</div>
@@ -666,29 +710,23 @@
 
 		<!-- footer-section -->
 		<footer class="footer-section">
+			<img src="images/big-line.png" alt="" class="sw-big-line">
 			<div class="container">
 				<div class="footer-section-inner">
-					<p class="copy-right">© 2022 <a class="color-theme2 hover-underline" href="https://Ethereal.net">Ethereal.net</a> All rights reserved.</p>
+					<p class="copy-right">© 2022 <a class="color-theme1 hover-underline" href="https://Anoria2.eu">Anoria2.eu</a> All rights reserved.</p>
+
+					<a href="index.html" class="footer-logo">
+						<img src="images/AnoriA-logo.png" alt="">
+					</a>
+
 					<div class="footer-right">
-						<div class="footer-language">
-							<div class="h-lan-dropdown dropdown bg-transparent border-0 p-0">
-								<a class="toggler bg-transparent" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-									<div class="icon me-2 ms-0"><img src="images/flags.png" alt=""></div>
-									<span class="txt">English</span>
-									<i class="far fa-chevron-down"></i>
-								</a>
-								<div class="dropdown-menu dropdown-menu-end">
-									<ul>
-										<li><a href="#">En</a></li>
-										<li><a href="#">Bn</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
 						<div class="design-by">
-							<p class="span color-theme2">Design & Animation by</p>
-							<img src="images/tuora.png" alt="" class="tuora">
-							<a href="https://TuoraArts.net" class="color-theme2 hover-underline">TuoraArts.net</a>
+							<p class="span color-theme1">Design & Animation by</p>
+							<div class="footer-tura-logo d-flex flex-column align-items-center">
+								<img src="images/tuora.png" alt="" class="tuora">
+								<p class="color-theme1 mb-0">Tuora.art</p>
+							</div>
+							<a href="https://TuoraArts.net" class="color-theme1 hover-underline">TuoraArts.net</a>
 						</div>
 					</div>
 				</div>
@@ -709,6 +747,7 @@
 	<!-- plugin -->
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<!-- custom-js -->
 	<script src="js/main.js"></script>
 	<!-- End All Js -->

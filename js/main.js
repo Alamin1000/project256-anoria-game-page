@@ -55,6 +55,18 @@
     $(this).addClass('expand-now');
   })
 
+
+  // owl-carousel
+  $('.video-slider-active').owlCarousel({
+    loop:true,
+    margin:0,
+    items:1,
+    responsiveClass:true,
+    nav:true,
+    dots:true,
+    navText: ['<span class="fas fa-chevron-left"></span>','<span class="fas fa-chevron-right"></span>'],
+  });
+
 })(jQuery);
 
 

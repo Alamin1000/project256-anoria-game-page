@@ -15,6 +15,7 @@
 }
 .bg-button:hover {
     opacity: 0.8;
+    color: #000;
 }
 /* ---buttons---end */
 
@@ -36,7 +37,7 @@
     content: '';
     height: 100%;
     width: 100%;
-    border: 1px solid #582323;
+    border: 1px solid #2F201C;
     position: absolute;
     top: 0;
     left: 0;
@@ -44,7 +45,7 @@
     width: 100%;
     display: flex;
     border-radius: inherit;
-    background: #421B1B;
+    background: #220D10;
   }
   .checkbox-model::after {
     content: '\f00c';
@@ -184,6 +185,9 @@
 /* text-color */
 .color-white {
     color: #fff !important;
+}
+.color-black {
+    color: #000 !important;
 }
 .color-text {
     color: var(--text__color1) !important;

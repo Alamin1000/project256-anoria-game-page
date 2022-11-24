@@ -1,6 +1,42 @@
-@media (max-width: 1599px) {
+@media (max-width: 1699px) {
+    .her-logo {
+        width: 400px;
+        max-width: 100%;
+    }
+    .hero-right-content {
+        margin-right: -1%;
+    }
+    .hero-cont1 .single-cont .txt-c h3 {
+        font-size: 25px;
+    }
+    .hero-cont1 .single-cont .txt-c h4 {
+        font-size: 12px;
+    }
+    .hero-cont1 .single-cont::after {
+        height: 170px;
+        width: 160px;
+    }
+    .hero-cont1 .single-cont {
+        margin-right: 60px;
+    }
     .hero-cont1 {
-        padding: 0 0 0 125px;
+        margin-top: 50px;
+    }
+    .hero-scroll-down {
+        margin: 20px 0 0;
+        font-size: 12px;
+        position: relative;
+        z-index: 5;
+    }
+    .hero-section {
+        height: 670px;
+        padding: 0px 0 0;
+    }
+    .hero-section-inner {
+        padding: 0 0 80px;
+    }
+    .download-button {
+        width: 140px;
     }
 }
 
@@ -11,18 +47,33 @@
 
 
 @media (max-width: 1199px) {
-    .hero-section {
-        height: 550px;
-        padding: 370px 0 0;
-    }
 
     .header-section-inner {
         height: 70px;
-    }
-    .hero-cont1 {
-        padding: 0 0 0 111px;
+        background: transparent;
+        padding: 16px 0;
     }
 
+
+    .h-download-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .h-download-row .options {
+        margin: 18px 0 0 0px;
+    }
+
+
+    .hero-left-content {
+        display: none;
+    }
+    .hero-right-content {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .hero-section-inner {
+        padding: 160px 0 0px;
+    }
 
     .main-section {
         margin-top: 0;
@@ -42,30 +93,6 @@
 
 
 @media (max-width: 991px) {
-    .hero-section {
-        height: 360px;
-        padding: 280px 0 0;
-    }
-    .hero-cont1 {
-        padding: 0;
-        justify-content: center;
-        background: rgba(0, 0, 0, 0.5);
-        padding: 20px;
-    }
-    .hero-cont1 .single-cont .image {
-        width: 30px;
-        margin-right: 10px;
-    }
-    .hero-cont1 .single-cont .txt-c h3 {
-        font-size: 19px;
-        margin: 0 0 1px;
-    }
-    .hero-cont1 .single-cont {
-        margin-right: 50px;
-    }
-    .header-section-inner {
-        height: 55px;
-    }
 
 
     .prefoot-section {
@@ -105,8 +132,12 @@
     .footer-section .design-by .tuora {
         margin: 12px 0px 10px;
     }
-    .footer-section {
-        padding: 15px 0 25px;
+
+    .footer-tura-logo p {
+        display: none;
+    }
+    .footer-logo {
+        margin: 0 0 20px;
     }
 }
 
@@ -124,29 +155,33 @@
         font-size: 16px;
         margin: 0 0 15px;
     }
+
+
+    .hero-section {
+        height: 570px;
+    }
 }
 
 
 @media (max-width: 575px) {
-    .hero-cont1 {
-        margin: 0 -12px;
-    }
-    .hero-section {
-        height: 297px;
-        padding: 226px 0 0;
-    }
-    .hero-cont1 {
-        padding: 15px 12px;
-    }
 
 
     .video-card .play-button {
         font-size: 30px;
+        top: 35%;
     }
     .video-card .video-title {
         padding: 10px 13px;
-        top: 0px;
     }
+    .video-slider .owl-nav {
+        top: 12px;
+        right: 15px;
+    }
+    .video-slider .owl-dots {
+        bottom: 11px;
+        right: 10px;
+    }
+
     .news-card .title {
         padding: 16px 12px;
         flex-direction: column;
@@ -156,20 +191,10 @@
     }
 
 
-    .hero-cont1 {
-        background: rgba(0, 0, 0, 0.7);
-    }
 }
 
 
 @media (max-width: 390px) {
-    .hero-section {
-        height: 230px;
-        padding: 165px 0 0;
-    }
-    .hero-cont1 {
-        padding: 12px 12px;
-    }
     
     .news-nav > ul > li {
         margin-right: 15px;
