@@ -195,6 +195,14 @@ p:last-child{
   max-width: 100%;
 }
 
+.header-logo  {
+  margin: 15px 0 0;
+  display: inline-block;
+}
+.header-logo  img {
+
+}
+
 .main-menu {
   
 } 
